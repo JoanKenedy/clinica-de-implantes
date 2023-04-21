@@ -679,7 +679,14 @@ form button{
   color: #fff;
   font-size: 0.9em;
 }
-
+.warnings{
+  
+  color: red;
+  text-align: center;
+  margin: auto;
+  padding: 8px;
+  font-size: 0.9em;
+}
 
 @media (min-width:768px){
     /*header*/

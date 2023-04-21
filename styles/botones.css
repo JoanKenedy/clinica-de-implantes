@@ -37,6 +37,16 @@
 }
 #flotante{
     z-index: 100;
+    animation: flotante 2s infinite;
+}
+@keyframes flotante {
+    from{
+        transform: scale(0.9);
+        box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.7);
+    }to{
+        transform: scale(1);
+        box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.7);
+    }
 }
 .menu-active .menu-item:nth-child(2){
     transform: translateX(-70px);
