@@ -210,14 +210,14 @@
       <h3>¿Te llámamos?</h3>
       <p class="title-p">Deja tus datos de contacto y uno de
         nuestros expertos se comunicará contigo.</p>
-      <form action="">
+      <form action="validacion/correo.php" id="form" method="post">
         <div class="input-container">
           <p>Hola! mi nombre es:</p>
-          <input type="text">
+          <input type="text"  id="nombre" name="nombre">
         </div>
         <div class="input-container">
           <p>Estoy interesado en:</p>
-          <select name="tratamiento" required>
+          <select name="tratamiento"  id="eleccion" >
 
             <option value="">Elige tu tratamiento</option>
               <option>Endodoncia</option>
@@ -233,15 +233,17 @@
         </div>
         <div class="input-container">
           <p>Mi teléfono o celular es:</p>
-          <input type="text">
+          <input type="text"  id="telefono" name="telefono">
         </div>
         <div class="input-container">
           <p> Mi correo es:</p>
-          <input type="email">
+          <input type="email"  id="email" name="email">
         </div>
         <button type="submit">
           Enviar
         </button>
+
+        <p class="warnings" id="warnings"></p>
       </form>
       <a href="" class="btn-form">
         <img src="images/whatsapp.png" alt="">

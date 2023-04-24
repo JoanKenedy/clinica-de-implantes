@@ -81,60 +81,62 @@
      
  </div>
  <div class="contact-form">
-    <div class="container-form">
-      <div class="item-contact-form">
-        <h2>Contáctanos</h2>
-        <h3>¿Te llámamos?</h3>
-        <p class="title-p">Deja tus datos de contacto y uno de
-          nuestros expertos se comunicará contigo.</p>
-        <form action="">
-          <div class="input-container">
-            <p>Hola! mi nombre es:</p>
-            <input type="text">
-          </div>
-          <div class="input-container">
-            <p>Estoy interesado en:</p>
-            <select name="tratamiento" required>
+  <div class="container-form">
+    <div class="item-contact-form">
+      <h2>Contáctanos</h2>
+      <h3>¿Te llámamos?</h3>
+      <p class="title-p">Deja tus datos de contacto y uno de
+        nuestros expertos se comunicará contigo.</p>
+      <form action="validacion/correo.php" id="form" method="post">
+        <div class="input-container">
+          <p>Hola! mi nombre es:</p>
+          <input type="text"  id="nombre" name="nombre">
+        </div>
+        <div class="input-container">
+          <p>Estoy interesado en:</p>
+          <select name="tratamiento"  id="eleccion" >
 
-              <option value="">Elige tu tratamiento</option>
-                <option>Endodoncia</option>
-                <option>Ortodoncia</option>
-                <option>Periodoncia</option>
-                <option>Ortopedia</option>
-                <option>Protesís bucal</option>
-                <option>Implantes</option>
-                <option>Cirugía </option>
-                <option>Cirugía Maxilofacial</option>
-                <option>Otro</option>
-            </select>
-          </div>
-          <div class="input-container">
-            <p>Mi teléfono o celular es:</p>
-            <input type="text">
-          </div>
-          <div class="input-container">
-            <p> Mi correo es:</p>
-            <input type="email">
-          </div>
-          <button type="submit">
-            Enviar
-          </button>
-        </form>
-        <a href="" class="btn-form">
-          <img src="images/whatsapp.png" alt="">
-          <p>Mándanos un whatsapp</p>
-        </a>
-      </div>
-      <div class="item-contact-form">
-        <img class="img-contact" src="images/girl-dentarios.png" alt="">
-        <a href="" class="btn-form2">
-          <img src="images/whatsapp.png" alt="">
-          <p>Mándanos un whatsapp</p>
-        </a>
-      </div>
+            <option value="">Elige tu tratamiento</option>
+              <option>Endodoncia</option>
+              <option>Ortodoncia</option>
+              <option>Periodoncia</option>
+              <option>Ortopedia</option>
+              <option>Protesís bucal</option>
+              <option>Implantes</option>
+              <option>Cirugía </option>
+              <option>Cirugía Maxilofacial</option>
+              <option>Otro</option>
+          </select>
+        </div>
+        <div class="input-container">
+          <p>Mi teléfono o celular es:</p>
+          <input type="text"  id="telefono" name="telefono">
+        </div>
+        <div class="input-container">
+          <p> Mi correo es:</p>
+          <input type="email"  id="email" name="email">
+        </div>
+        <button type="submit">
+          Enviar
+        </button>
+
+        <p class="warnings" id="warnings"></p>
+      </form>
+      <a href="" class="btn-form">
+        <img src="images/whatsapp.png" alt="">
+        <p>Mándanos un whatsapp</p>
+      </a>
     </div>
-    
+    <div class="item-contact-form">
+      <img class="img-contact" src="images/girl-dentarios.png" alt="">
+      <a href="" class="btn-form2">
+        <img src="images/whatsapp.png" alt="">
+        <p>Mándanos un whatsapp</p>
+      </a>
+    </div>
   </div>
+  
+</div>
  <footer>
   <div class="item-footer" id="ubicacion">
     <div class="sub-item-footer">

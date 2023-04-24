@@ -14,7 +14,7 @@ const infoModal = [
         title: "Ortodoncia",
         img: "images/ortodoncia.png",
         info: "La especilidad de ortodoncia es la encargada de corregir la malposicion de los dientes, arcadas dentales y mordidas, con el fin de obtener una oclusion ideal mediante la colocación de aparatos y dispositivos correctivos.",
-        text: "Existen actualmente muchas técnicas ortodonticas para la alineación dental. En Dental Dent manejamos todas las técnicas actuales que son:",
+        text: "Existen actualmente muchas técnicas ortodonticas para la alineación dental. En Clínica de implantes manejamos todas las técnicas actuales que son:",
         text2: "Ortodoncia convecional",
         text3: "Ortodoncia de autoligado",
         text4: "Ortodoncia invisible con alineadores transparentes"
