@@ -1198,7 +1198,7 @@ form{
   font-size: 1em;
   margin: 5px auto;
 }
-form button{
+.input-container:nth-child(5) input{
   display: block;
   width: 120px;
   background-color: #05a6e1;
