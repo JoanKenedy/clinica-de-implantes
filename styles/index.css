@@ -687,7 +687,9 @@ form button{
   padding: 8px;
   font-size: 0.9em;
 }
-
+.img-item {
+  width: 30%;
+}
 @media (min-width:768px){
     /*header*/
 header{
@@ -971,6 +973,9 @@ header{
     font-size: 1.1em;
 }
 /*nosotros*/
+.img-item {
+  width: 30%;
+}
 /*question*/
 .preguntas-frecuentes{
   width: 100%;
