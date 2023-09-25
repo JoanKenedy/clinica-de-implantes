@@ -62,9 +62,18 @@
         --sizeIcons:60px;
         --widthContent:200px;
         --heightContent:130px;
-    
     }
-    
+    .menu-content {
+        right: 20px;
+        bottom: 25px;
+    }
+    .menu-active .menu-item:nth-child(2){
+        transform: translateX(-100px);
+    }
+    .menu-active .menu-item:nth-child(3){
+        transform: translateY(-100px);
+      
+    }
 .menu-item{
     width: var(--sizeButton);
     height: var(--sizeIcons);
@@ -77,5 +86,8 @@
     bottom: 0;
     right:  5px;
     transition: transform 300ms;
+}
+.menu-item img {
+    width: 100px;
 }
 }

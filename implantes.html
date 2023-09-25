@@ -34,6 +34,12 @@
   src="https://www.facebook.com/tr?id=1397681034366994&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 </head>
 <body>
   <header>
@@ -48,7 +54,6 @@
             <li><a href="index.html#especialidades">Especialidades</a></li>
             <li><a href="promociones.html">Promociones</a></li>
             <li><a href="#ubicacion">Ubicación</a></li>
-            <li><a href="index.html#formulario" class="btn-contacto-header">Contacto</a></li>
           </ul>
         </div>
         <button id="button-menu" class="button-menu ">
@@ -60,7 +65,7 @@
   </header>
   <div class="container-text-promociones">
       <video src="media/fondo-implantes.mp4" autoplay muted loop></video>
-      <div class="container-text">
+      <div class="container-text implantes-txt">
         <h2>Implantes Dentales</h2>
       </div>
   </div>
@@ -76,12 +81,11 @@
       <img src="images/phone.png" alt="">
     </a> 
   </div>
-
   <div class="section-nosotros">
-    <h2>Conócenos</h2>
+    <h2>¿QUÉ ES UN IMPLANTE?</h2>
     <div class="container-nosotros">
-      <div class="item-nosotros">
-        <img src="images/somos.jpeg" alt="">
+      <div class="item-nosotros item-implantes">
+        <img src="images/implantes/IMPLANTE.jpg" alt="">
       </div>
       <div class="item-nosotros">
         <h2>¿QUÉ ES UN IMPLANTE?</h2>
@@ -94,48 +98,114 @@
   </div>
 
   <section class="especialidades" id="especialidades">
-    <div class="title-especialidades">
+    <div class="title-especialidades title-implantes">
       <h2>VENTAJAS DE LOS IMPLANTES</h2>
     </div>
-    <div class="container-especialidades">
+    <div class="container-especialidades implantes">
       <div class="item-especialidades">
-        <img src="images/implantologia.png" alt="">
-          <h2 class="title-especialidad">Implantología</h2>
-        <button class="btn-mas" id="1">Saber más</button>
+        <img src="images/implantes/dentadura.png" alt="">
+          <h2 class="title-especialidad">Función</h2>
+        <p>Recupera la función masticatoria, evitando los problemas digestivos y de nutrición que se producen por la falta de dientes.</p>
       </div>
       <div class="item-especialidades">
-        <img src="images/ortodoncia.png" alt="">
-          <h2 class="title-especialidad">Ortodoncia</h2>
-        <button class="btn-mas" id="2">Saber más</button>
+        <img src="images/implantes/sonrisa.png" alt="">
+          <h2 class="title-especialidad">Estética</h2>
+          <p>Tu boca lucirá de nuevo con unos dientes de aspecto natural, sin huecos vacíos ni ganchos de metal.</p>
       </div>
       <div class="item-especialidades">
-        <img src="images/periodoncia.png" alt="">
-          <h2 class="title-especialidad">Periodoncia</h2>
-        <button class="btn-mas" id="3">Saber más</button>
+        <img src="images/implantes/mujer.png" alt="">
+          <h2 class="title-especialidad">Comodidad</h2>
+        <p>Proporcionan una fijación firme con la que te sentirás seguro, sin la preocupación de las prótesis que se mueven, lo que te ayudará a recuperar la confianza en tu sonrisa.</p>
       </div>
       <div class="item-especialidades">
-        <img src="images/endodoncia.png" alt="">
-          <h2 class="title-especialidad">Endodoncia</h2>
-        <button class="btn-mas" id="4">Saber más</button>
-      </div>
-      <div class="item-especialidades">
-        <img src="images/protesis.png" alt="">
-          <h2 class="title-especialidad">Prótesis Bucal</h2>
-        <button class="btn-mas" id="5">Saber más</button>
-      </div>
-      <div class="item-especialidades">
-        <img src="images/cirugia-oral.png" alt="">
-          <h2 class="title-especialidad">Cirugía Oral</h2>
-        <button class="btn-mas" id="6">Saber más</button>
+        <img src="images/implantes/implante.png" alt="">
+          <h2 class="title-especialidad">No Invasivo</h2>
+        <p>Podemos colocar dientes fijos sin necesidad de apoyarnos en los dientes contiguos, evitando desgastarlos y de este modo conservamos su integridad.</p>
       </div>
     </div>
   </section>
-
+  <div class="tratamientos" style="margin-top: 40px;">
+    <div class="title-especialidades title-implantes">
+      <h2 class="trata">Antes de colocarte un implante</h2>
+    </div>
+    <div class="container-tratamientos implantes-2">
+      <div class="item-tratamientos">
+        <img src="images/implantes/radiografia.webp" alt="">
+          <p>Necesitamos realizarte una exploración previa y un estudio radiográfico para conocer las características de tu hueso para determinar si eres candidato al tratamiento de implantes y establecer el procedimiento implantológico a seguir.</p>
+      </div>
+      <div class="item-tratamientos">
+        <img src="images/implantes/regeneracion-osea.jpg" alt="">
+          <div>
+            <h2>¿QUÉ PASA SI NO HAY SUFICIENTE HUESO?</h2>
+            <p>En los casos en los que no haya hueso suficiente o éste no tenga la calidad deseada, podemos conseguirlo mediante técnicas de regeneración ósea, como injertos óseos y de encía.</p>
+          </div>
+      </div>
+    
+    </div>
+  </div>
+  <section class="especialidades" id="especialidades">
+    <div class="title-especialidades title-implantes">
+      <h2>TIPOS DE PRÓTESIS CON IMPLANTES</h2>
+    </div>
+    <div class="container-especialidades implantes-2">
+      <div class="item-especialidades">
+        <div>
+          <h1 class="title-especialidad">Prótesis Fija Sobre Implantes</h1>
+          <p>Son aquellas en las que sustituimos uno o varios dientes perdidos y se fijan atornilladas o cementadas sobre el implante. 
+            Cuando sustituimos una sola pieza con implante lo llamamos corona unitaria sobre implante. 
+            Si sustituimos varios dientes se conoce como puente, sobre dos implantes. Por ejemplo, con dos implantes sustituimos tres piezas dentales. 
+            </p>
+        </div>
+          <div class="container-img">
+            <img src="images/implantes/fot1.png" alt="">
+            <img src="images/implantes/fot-2.png" alt="">
+            <img src="images/implantes/fot3.png" alt="">
+          </div>
+      </div>
+      <div class="item-especialidades">
+        <div>
+          <h1 class="title-especialidad">Sobredentadura</h1>
+          <p>Las sobredentaduras son prótesis removibles como las dentaduras convencionales, pero estas se retienen  sobre implantes dentales. 
+            Están indicadas en pacientes con edentulismo total que tienen limitaciones anatómicas para colocar mayor número de implantes y realizar una prótesis fija. Normalmente se colocará sobre dos implantes en la arcada superior y sobre dos en la inferior.
+            Es una prótesis removible o semifija que, a pesar de estar retenida  sobre implantes dentales, mediante un sistema de tornillos macho-hembra se puede quitar. 
+            Presentan mayor sujeción que las tradicionales dentaduras postizas que simplemente se sujetan sobre la encía. Al poderse retirar por el paciente  facilita  la correcta higiene de la prótesis.
+            </p>
+        </div>
+        <div class="container-img">
+          <img src="images/implantes/implante1.jpg" alt="">
+          <img src="images/implantes/implante-2.jpg" alt="">
+          <img src="images/implantes/Imagen1.jpg" alt="">
+        </div>
+      </div>
+      <div class="item-especialidades">
+        <div>
+          <h1 class="title-especialidad">Prótesis Hibridas Sobre Implantes</h1>
+          <p>La prótesis híbrida es un tipo de prótesis fija implanto-soportada que irá retenida sobre 4 a 6 implantes. Estas prótesis estarán formadas por una estructura metálica (sin paladar) recubierta de resina acrílica y tienen como objetivo el restaurar la funcionalidad y estética de tus dientes.</p>
+          <div>
+            <h2>¿Cuándo Esta Indicada La Prótesis Híbrida Sobre Implantes?</h2>
+            <p>Podrá estar indicada en personas que han perdido todos sus dientes en una arcada maxilar o en ambas, es decir, en pacientes edéntulos.
+              Este es un tratamiento protésico completamente seguro y con excelentes resultados.
+              </p>
+              <h1>Algunas de las ventajas de las prótesis híbridas son:</h1>
+              <div class="ventajas">
+                <ul>
+                  <li>Es una prótesis fija. Notarás que esta prótesis es como tener tus propios dientes perdidos. Este tipo de prótesis será mucho más cómoda que una prótesis removible o que una prótesis tipo sobre-dentadura, las cuales se deben retirar tras cada comida para ser limpiadas. Al ser una prótesis fija también se evitarán rozaduras, llagas, por el movimiento de esta.</li>
+                  <li>Ofrecen una gran estética. Al reponer no solo los dientes, sino que asimismo la encía perdida, ofrece una gran estética al sonreír.</li>
+                  <li>Buena distribución de las fuerzas masticatorias. Este tipo de prótesis ofrecen una mayor reducción de las fuerzas de impacto oclusales ya que el acrílico actúa como una fase intermedia entre los dientes y la estructura metálica.</li>
+                  <li>Se pueden retirar para su mantenimiento en la consulta dental. En le consulta dental, el profesional podrá retirar la prótesis híbrida para realizar el mantenimiento periodontal periódico.</li>
+                </ul>
+                <img src="images/implantes/hibrida.png" alt="" style="max-width: 450px; margin-top: 20px;">
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <footer>
   <div class="item-footer" id="ubicacion">
     <div class="sub-item-footer">
       <p>Horarios: Lunes a Viernes: 10am a  7pm  </p>
-    <p>Sabados: 10am a 3pm</p>
+      <p>Sábados: 10am a 3pm</p>
       <h6>Dirección: Eje 8 sur Jose Maria Rico #121</h6>
     <h6>interior 107 Col. Actipan, Benito Juarez , Cdmx.</h6>
     
@@ -176,6 +246,7 @@
      </div>
   </div>
 </footer>
+    <script src="js/swipers.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/text.js"></script>
     <script src="js/flotantes.js"></script>

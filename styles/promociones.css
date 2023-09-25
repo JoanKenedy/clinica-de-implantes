@@ -35,6 +35,9 @@
     color: #1c3860;
     z-index: 11;
 }
+.implantes-txt h2 {
+    color: white;
+}
 .promociones{
     width: 100%;
     overflow-x: hidden;
@@ -167,6 +170,9 @@
         font-weight: 800;
         color: #1c3860;
         z-index: 11;
+    }
+    .implantes-txt h2 {
+        color: white;
     }
     .promociones{
         width: 100%;
