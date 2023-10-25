@@ -8,6 +8,12 @@
     <link rel="icon" type="image/jpg" href="images/icono.ico"/>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7P9NLQ9XN"></script>
 <script>
@@ -191,6 +197,66 @@
           <img src="images/whatsapp.png" alt="" class="img-tratamientos">
            <p>Preguntar por más tratamientos</p>  
           </a>
+      </div>
+      <div class="tratamientos">
+        <div class="title-especialidades">
+          <h2 class="trata">Testimonios</h2>
+        </div>
+        <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="item-testimonio">
+              <img src="images/persona-1.png" alt="">
+              <div>
+                <p>Excelente servicio y resultados. Te explican todo con claridad y el precio corresponde a los resultados obtenidos. Estoy muy contenta con el servicio en general.</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Sofía López R.</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item-testimonio">
+              <img src="images/persona-2.png" alt="">
+              <div>
+                <p>Excelente atención</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Perla Olguin</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item-testimonio">
+              <img src="images/persona.png" alt="">
+              <div>
+                <p>
+                  Excelente servicio, rápido limpio y sin dolor.🦷 y sobre todo precio justo</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Alejandra Gómez</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item-testimonio">
+              <img src="images/persona-4.png" alt="">
+              <div>
+                <p>
+                  La atención fue rápida y oportuna el doctor me explicó claramente los tratamientos y mis opciones, hizo un excelente trabajo</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Danny Ontiveros</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
       </div>
       <div class="preguntas-frecuentes" id="preguntas">
         <div class="title-question">  <h2>Preguntas frecuentes</h2></div>
@@ -419,6 +485,7 @@ emailjs.init('RGS5NrstxG7vf6h22')
     <script src="js/cards.js"></script>
     <script src="js/flotantes.js"></script>
     <script src="js/form.js"></script>
+    <script src="js/swipers.js"></script>
      <script>
       const btn = document.getElementById('button');
 

@@ -21,6 +21,17 @@ header{
    width: 100%;
    
 }
+.item-testimonio {
+  display: flex;
+  align-items: flex-start;
+  text-align: justify;
+  padding: 0 20px;
+}
+.item-testimonio img {
+  width: 30px;
+  height: 30px;
+}
+
 .header-top{
     width: 100%;
     display: flex;
@@ -54,6 +65,19 @@ header{
     object-fit: contain;
     margin: 10px auto;
    
+}
+.swiper-button-prev, .swiper-button-next {
+  background-color: rgba(255, 255, 255, 0);
+  transition: all 0.3s linear;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: #1d1d1d !important;
+  display: none !important;
+}
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  background-color: rgba(49, 49, 49, 0.39);
+  transition: all 0.3s linear;
+  color: white !important;
 }
 .menu{
    position:absolute;
@@ -901,6 +925,14 @@ header{
 .implantes .item-especialidades h2 {
   color: #1c3860;
 }
+.item-testimonio img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.item-testimonio {
+  padding: 0;
+}
 .item-especialidades button{
     background-color: #509fd8 ;
     border-radius: 10px;
@@ -953,6 +985,9 @@ header{
     border-radius: 12px;
     padding: 10px 15px;
   
+  }
+  .swiper-button-prev, .swiper-button-next {
+    display: flex !important;
   }
   #titleService{
     color: #fff;
@@ -1373,8 +1408,8 @@ form{
   padding: 0 50px;
 }
 .swiper {
-  width: 600px;
-  height: 300px;
+  width: 80%;
+  height: 250px;
 }
 .item-tratamientos h2{
   font-size: 1.2em;
