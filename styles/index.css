@@ -382,6 +382,7 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .title-question{
   width: 90%;
@@ -763,7 +764,22 @@ form button{
 .img-item {
   width: 30%;
 }
+.grid-promos {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  place-content: center;
+  gap: 20px;
+}
+.container-promos {
+  margin-bottom: 30px;
+}
 @media (min-width:768px){
+  .grid-promos {
+    grid-template-columns: repeat(2, minmax(300px, 400px));
+  }
+  .container-promos {
+    font-size: 2.2em;
+  }
     /*header*/
 header{
     width: 100%;
@@ -1383,6 +1399,7 @@ form{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 .ventajas ul {
   padding-right: 50px;
