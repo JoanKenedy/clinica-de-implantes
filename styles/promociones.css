@@ -189,7 +189,7 @@
     }
     .container-promociones{
         display: grid;
-        grid-template-columns: repeat(2, minmax(350px, 400px));
+        grid-template-columns: repeat(3, minmax(350px, 400px));
         gap: 50px;
         width: 90%;
         margin: auto;
