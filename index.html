@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clínica de Implantes del Sur</title>
+    <link rel="icon" type="image/jpg" href="images/icono.ico"/>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7P9NLQ9XN"></script>
 <script>
@@ -36,51 +43,37 @@
 </head>
 <body>
     <header>
-        <div class="header-top"> <p>Agenda tu cita </p><p>Tel: 5528750974</p></div>
-        <nav class="navbar" id="nav">
-            <div class="container-logo"><img src="images/logo-2.png" alt=""></div>
-            <div class="container-menu">
-              <ul class="menu" id="menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="#especialidades">Especialidades</a></li>
-                <li><a href="promociones.html">Promociones</a></li>
-                <li><a href="#ubicacion">Ubicación</a></li>
-                <li><a href="#formulario" class="btn-contacto-header" target="_blank">Contacto</a></li>
-
-            </ul>
-            </div>
-          
-            <button id="button-menu" class="button-menu ">
-             <span></span>
-             <span></span>
-             <span></span>
-          </button>
-
-        </nav>
+      <div class="header-top"> <p>Agenda tu cita </p><p>Tel: 5528750974</p></div>
+      <nav class="navbar" id="nav">
+        <div class="container-logo"><img src="images/logo-2.png" alt=""></div>
+        <div class="container-menu">
+          <ul class="menu" id="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="implantes.html">Implantes Dentales</a></li>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="promociones.html">Promociones</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#formulario" class="btn-contacto-header" >Contacto</a></li>
+        </ul>
+        </div>
+        <button id="button-menu" class="button-menu ">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
     </header>
     <main>
       <div class="hero-home" id="1" data-id="sliderIndex">
         <div class="slider-home" id="inicio">
-          <div class="mySlider fade">
-            <img src="images/promo-movil-1.jpg" alt="" class="slider-movil" />
-            <img src="images/promo-compu-1.jpg" alt="" class="slider-descktop" />
+          <div class="mySlider"><!--<div class="mySlider fade">-->
+            <img src="images/Promociones/hero-mov.webp" alt="Promoción" class="slider-movil" />
+            <img src="images/Promociones/hero.webp" alt="Promoción" class="slider-descktop" />
           </div>
-          <div class="mySlider fade">
-            <img src="images/promo-movil-2.jpg" alt="" class="slider-movil" />
-            <img src="images/promo-compu-2.jpg" alt="" class="slider-descktop" />
-          </div>
-          <div class="mySlider fade">
+          <!--<div class="mySlider fade">
             <img src="images/promo-movil-3.jpg" alt="" class="slider-movil" />
             <img src="images/promo-compu-3.jpg" alt="" class="slider-descktop" />
-          </div>
-          <div class="mySlider fade">
-            <img src="images/promo-movil-4.jpg" alt="" class="slider-movil" />
-            <img src="images/promo-compu-4.jpg" alt="" class="slider-descktop" />
-          </div>
-          <div class="mySlider fade">
-            <img src="images/promo-movil-5.jpg" alt="" class="slider-movil" />
-            <img src="images/promo-compu-5.jpg" alt="" class="slider-descktop" />
           </div>
           <div class="mySlider fade">
             <img src="images/promo-movil-6.jpg" alt="" class="slider-movil" />
@@ -89,7 +82,7 @@
           <div class="mySlider fade">
             <img src="images/promo-movil-7.jpg" alt="" class="slider-movil" />
             <img src="images/promo-compu-7.jpg" alt="" class="slider-descktop" />
-          </div>
+          </div>-->
           
 
         </div>
@@ -102,6 +95,7 @@
             <img src="images/somos.jpeg" alt="">
           </div>
           <div class="item-nosotros">
+            <img class="img-item" src="images/implantes-mx-logo.jpg" alt="">
             <h2>Conócenos</h2>
             <p>Somos una clínica especializada en el tratamiento de implantes dentales, comprometidos en devolver una adecuada funcion y 
               estetica dental a cada uno de nuestros pacientes, realizado mediante un diagnostico y plan de tratamiento personalizado. 
@@ -116,32 +110,32 @@
          
            <div class="container-especialidades">
             <div class="item-especialidades">
-              <img src="images/implantologia.png" alt="">
+              <img src="images/implantologia.webp" alt="">
                  <h2 class="title-especialidad">Implantología</h2>
               <button class="btn-mas" id="1">Saber más</button>
             </div>
             <div class="item-especialidades">
-              <img src="images/ortodoncia.png" alt="">
+              <img src="images/ortodoncia.webp" alt="">
                  <h2 class="title-especialidad">Ortodoncia</h2>
               <button class="btn-mas" id="2">Saber más</button>
             </div>
             <div class="item-especialidades">
-              <img src="images/periodoncia.png" alt="">
+              <img src="images/periodoncia.webp" alt="">
                  <h2 class="title-especialidad">Periodoncia</h2>
               <button class="btn-mas" id="3">Saber más</button>
             </div>
             <div class="item-especialidades">
-              <img src="images/endodoncia.png" alt="">
+              <img src="images/endodoncia.webp" alt="">
                  <h2 class="title-especialidad">Endodoncia</h2>
               <button class="btn-mas" id="4">Saber más</button>
             </div>
             <div class="item-especialidades">
-              <img src="images/protesis.png" alt="">
+              <img src="images/protesis.webp" alt="">
                  <h2 class="title-especialidad">Prótesis Bucal</h2>
               <button class="btn-mas" id="5">Saber más</button>
             </div>
             <div class="item-especialidades">
-              <img src="images/cirugia-oral.png" alt="">
+              <img src="images/cirugia-oral.webp" alt="">
                  <h2 class="title-especialidad">Cirugía Oral</h2>
               <button class="btn-mas" id="6">Saber más</button>
             </div>
@@ -197,6 +191,66 @@
           <img src="images/whatsapp.png" alt="" class="img-tratamientos">
            <p>Preguntar por más tratamientos</p>  
           </a>
+      </div>
+      <div class="tratamientos">
+        <div class="title-especialidades">
+          <h2 class="trata">Testimonios</h2>
+        </div>
+        <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="item-testimonio">
+              <img src="images/persona-1.png" alt="">
+              <div>
+                <p>Excelente servicio y resultados. Te explican todo con claridad y el precio corresponde a los resultados obtenidos. Estoy muy contenta con el servicio en general.</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Sofía López R.</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item-testimonio">
+              <img src="images/persona-2.png" alt="">
+              <div>
+                <p>Excelente atención</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Perla Olguin</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item-testimonio">
+              <img src="images/persona.png" alt="">
+              <div>
+                <p>
+                  Excelente servicio, rápido limpio y sin dolor.🦷 y sobre todo precio justo</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Alejandra Gómez</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item-testimonio">
+              <img src="images/persona-4.png" alt="">
+              <div>
+                <p>
+                  La atención fue rápida y oportuna el doctor me explicó claramente los tratamientos y mis opciones, hizo un excelente trabajo</p>
+                <p>⭐⭐⭐⭐⭐</p>
+                <h3>Danny Ontiveros</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
       </div>
       <div class="preguntas-frecuentes" id="preguntas">
         <div class="title-question">  <h2>Preguntas frecuentes</h2></div>
@@ -395,6 +449,7 @@ emailjs.init('RGS5NrstxG7vf6h22')
             <ul>
               <li><a href="#inicio">Inicio</a></li>
               <li><a href="nosotros.html">Nosotros</a></li>
+              <li><a href="implantes.html">Implantes Dentales</a></li>
               <li><a href="#especialidades">Especialidades</a></li>
               <li><a href="#preguntas">Preguntas</a></li>
               <li><a href="https://api.whatsapp.com/send?phone=525573891519" target="_blank">Contacto</a></li>
@@ -424,6 +479,7 @@ emailjs.init('RGS5NrstxG7vf6h22')
     <script src="js/cards.js"></script>
     <script src="js/flotantes.js"></script>
     <script src="js/form.js"></script>
+    <script src="js/swipers.js"></script>
      <script>
       const btn = document.getElementById('button');
 
