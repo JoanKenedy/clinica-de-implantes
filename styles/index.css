@@ -769,16 +769,32 @@ form button{
   grid-template-columns: repeat(1, 1fr);
   place-content: center;
   gap: 20px;
+  max-width: 1280px;
 }
 .container-promos {
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 @media (min-width:768px){
   .grid-promos {
-    grid-template-columns: repeat(2, minmax(300px, 400px));
+    grid-template-columns: repeat(2, minmax(200px, 450px));
   }
   .container-promos {
     font-size: 2.2em;
+  }
+  .grid-promos .promo-special {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    place-content: center;
+  }
+  .grid-promos .promo-special img {
+    height: 100% !important;
+    max-height: 300px !important;
+    width: auto !important;
   }
     /*header*/
 header{
@@ -1491,21 +1507,24 @@ form{
     color: #2E2E2E;
     text-transform: uppercase;
     font-weight: 500;
-    
-
-}
-.btn-contacto-header {
-  display: block;
-  background-color: #2E2E2E;
-  color: #fff !important;
-  border-radius: 10px;
-  width: 120px;
-  text-align: center;
-  padding: 10px;
-  font-size: 1em;
-  font-weight: 300;
-  transition: 0.6s;
-}
+  }
+  .btn-contacto-header {
+    display: block;
+    background-color: #2E2E2E;
+    color: #fff !important;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 300;
+    transition: 0.6s;
+  }
+  .grid-promos .promo-special img {
+    height: 100% !important;
+    max-height: 500px !important;
+    width: auto !important;
+  }
 }
 .container-img img {
   width: 100%;
