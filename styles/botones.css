@@ -9,7 +9,7 @@
 
 
 .menu-content{
-    width: var(--widthContent);
+    width: 30px;
     height: var(--heightContent);
     position: fixed;
     bottom: 20px;
